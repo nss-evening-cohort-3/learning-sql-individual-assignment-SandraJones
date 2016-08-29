@@ -24,4 +24,3 @@ SELECT InvoiceId, agentname FROM
      JOIN Employee E 
        ON E.EmployeeId == C.SupportRepId 
  WHERE e.Title =='Sales Support Agent' ORDER BY E.LastName)
-
